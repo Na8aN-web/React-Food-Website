@@ -1,0 +1,45 @@
+.menu-card img{
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.menu-card{
+    box-shadow: 0px 16px 24px rgb(142 141 208 / 50%);
+    border-radius: 20px;
+    margin: 10px;
+    width: 350px;
+    cursor: pointer;
+}
+.menu-card:hover{
+    margin: 11px;
+    box-shadow: 0px 16px 24px rgb(142 141 208 / 100%);
+}
+.menu-header{
+    padding: 10px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.menu-card h1{
+    padding: 10px;
+    font-size: 25px;
+    padding-bottom: 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: scroll;
+    
+}
+@media(max-width: 650px){
+    .menu-card h1{
+        font-size: 13px;
+        padding-bottom: 10px;
+        font-family: 'Montserrat', sans-serif;
+    }
+  }
+ 
